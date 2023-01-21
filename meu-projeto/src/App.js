@@ -1,13 +1,19 @@
 
-import {Article,Brand, Cta, Feature, Navbar} from './components';
+import {Footer, Blog, Possibility, Features, WhatGPT3, Header} from './conteiners';
+import {Cta, Brand, Navbar} from './components';
+
 
 function App() {
-  const name ="Julia"
+  
   return (
     <div className="App">
-      <h1> Olá</h1>
-      <p>meu primeiro app</p>
-      <p>Olá, {name}</p>
+      <div className="gradient__bg">
+      <Navbar/>
+      <Header/>
+      </div>
+      <Brand/>
+      <WhatGPT3/>
+      <Features/>
     </div>
   );
 }
