@@ -1,11 +1,5 @@
 
-import './App.css';
-import Article from './components/Article/Article'
-import Brand from './componentt/Brand/Brand'
-import Cta from './components/Cta/Cta'
-import Feature from './components/Feature/Feature'
-import Navbar from './components/Navbar/Navbar'
-
+import {Article,Brand, Cta, Feature, Navbar} from './index'
 
 function App() {
   const name ="Julia"
