@@ -1,5 +1,5 @@
 
-import {Article,Brand, Cta, Feature, Navbar} from './index'
+import {Article,Brand, Cta, Feature, Navbar} from './index.js'
 
 function App() {
   const name ="Julia"
