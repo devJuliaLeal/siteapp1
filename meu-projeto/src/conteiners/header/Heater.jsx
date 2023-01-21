@@ -1,5 +1,5 @@
 import React from 'react'
-import heater from './heater.css'
+import './heater.css';
 
 const Heater = () => {
   return (
