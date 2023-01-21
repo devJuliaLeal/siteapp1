@@ -1,5 +1,5 @@
 
-import {Article,Brand, Cta, Feature, Navbar} from './index.js'
+import {Article,Brand, Cta, Feature, Navbar} from './components';
 
 function App() {
   const name ="Julia"
