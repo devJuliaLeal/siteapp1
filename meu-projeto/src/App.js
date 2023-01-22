@@ -3,22 +3,21 @@ import {Footer, Blog, Possibility, Features, WhatGPT3, Header} from './conteiner
 import {Cta, Brand, Navbar} from './components';
 
 
-function App() {
+const App = () => {
   
   return (
     <div className="App">
       <div className="gradient__bg">
       <Navbar/>
-      <Header/>
+      <header/>
       </div>
       <Brand/>
-      <WhatGPT3/>
+      <whatGPT3/>
       <Features/>
-      <Possibility/>
+      <possibility/>
       <Cta/>
       <Blog/>
-
-    </div>
+      <Footer/>    </div>
   );
 }
 
