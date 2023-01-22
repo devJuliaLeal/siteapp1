@@ -1,24 +1,10 @@
 
-import {Footer, Blog,  Features, Header } from './conteiners';
-import {Cta, Brand, Navbar} from './components';
-import './App.css';
+import React from 'react';
 
-const App = () => {
-  
-  return (
-    <div className="App">
-      <div className="gradient__bg">
-      <Navbar/>
-      <Header/>
-      </div>
-      <Brand/>
-      
-      <Features/>
-      
-      <Cta/>
-      <Blog/>
-      <Footer/>    </div>
+const App = () => (
+    <div>
+        <p> GPT-3</p>
+    </div>
   );
-}
 
 export default App;
