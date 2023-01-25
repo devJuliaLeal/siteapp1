@@ -2,8 +2,8 @@ import React from 'react'
 
 const Navbar = () => {
   return (
-    <div8 className='text-white'>
-        <h1>className=''> React.</h1>
+    <div className='text-white'>
+        <h1 className='w-full text-3xl font-bold text-[#00df9a]'>React.</h1>
     </div>
   )
 }
