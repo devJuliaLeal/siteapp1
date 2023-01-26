@@ -1,3 +1,6 @@
+@import url(https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,500;1,300&display=swap" rel="stylesheet);
+
+
 * {
   margin: 0;
   padding: 0;
@@ -31,5 +34,14 @@ html {
   display: none;
 }
 body{
+  font-family: 'Poppins', sans-serif;
+  background: var(--color-bg);
+  line-height: 1.7;
   
+}
+
+/*============== GENERAL STYLES =================== */
+
+.container {
+  width: var(--conteiner-width-lg);
 }
