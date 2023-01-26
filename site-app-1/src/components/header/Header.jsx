@@ -4,6 +4,7 @@ import CTA from './CTA'
 import IM from '../../assets/circulo.jpg'
 import HeaderSocials from './HeaderSocials'
 
+
 const Header = () => {
   return (
     <header>
@@ -13,6 +14,7 @@ const Header = () => {
      <h5 className='text-light'> FrontEnd Developer </h5>
      <CTA/>
      <HeaderSocials/>
+     
 
      <div className='me'>
       <img src={IM} alt='image'></img>
