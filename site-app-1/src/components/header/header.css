@@ -39,3 +39,7 @@ header{
 }
 
 /*===================== ME ===================*/
+.me {
+    background: var(--color-primary);
+    
+}
