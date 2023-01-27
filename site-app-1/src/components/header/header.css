@@ -28,7 +28,7 @@ header{
     gap: 0.8rem;
     position: absolute;
     left: 1px;
-    bottom: 20rem;
+    bottom: 200px;
 }
 
 .header__socials::after{
@@ -46,6 +46,6 @@ header{
     position: absolute;
     left: calc(50% - 11rem);
     margin-top: 4rem;
-    border-radius: 120px; 
+    border-radius: 120px 120px 0 0; 
   
 }

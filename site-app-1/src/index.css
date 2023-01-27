@@ -88,6 +88,7 @@ a:hover{
 .btn {
   width: max-content;
   display: inline-block;
+  font-size: 14px;
   color: var(--color-primary);
   padding: 0.75rem 1.2rem ;
   border-radius: 0.4rem;
@@ -108,7 +109,7 @@ a:hover{
 
 }
 img{
-display: block;
+  display: block;
   width: 100%;
   object-fit: cover;
   width: 100px;
