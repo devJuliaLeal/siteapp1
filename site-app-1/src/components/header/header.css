@@ -3,11 +3,7 @@ header{
     padding-top: 7rem;
     overflow: hidden;
 }
-.me {
-    text-align: center;
-    height: 100%;
-    position: relative;
-}
+
 .header_container{
     text-align: center;
     height: 100%;
@@ -34,3 +30,12 @@ header{
     left: 1px;
     bottom: 20rem;
 }
+
+.header__socials::after{
+    content: "";
+    width: 1px;
+    height: 2rem;
+    background: var(--color-primary);
+}
+
+/*===================== ME ===================*/
