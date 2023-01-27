@@ -3,18 +3,34 @@ header{
     padding-top: 7rem;
     overflow: hidden;
 }
-
+.me {
+    text-align: center;
+    height: 100%;
+    position: relative;
+}
 .header_container{
     text-align: center;
     height: 100%;
     position: relative;
 }
 
-/*========================== CTA ===================*/
+/*===================== CTA ===================*/
 
 .cta {
     margin-top: 2rem;
     display: flex;
     gap: 1.2rem;
     justify-content: center;
+}
+
+/*===================== HEADER SOCIALS ===================*/
+
+.header__socials {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.8rem;
+    position: absolute;
+    left: 1px;
+    bottom: 20rem;
 }
