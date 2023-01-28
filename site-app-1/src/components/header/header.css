@@ -28,8 +28,9 @@ header{
     align-items: center;
     gap: 1.5rem;
     position: absolute;
-    left: 450px;
+    left: 350px;
     bottom: 200px;
+    
 }
 
 .header__socials::after{
