@@ -17,6 +17,7 @@ header{
     display: flex;
     gap: 1.2rem;
     justify-content: center;
+
 }
 
 /*===================== HEADER SOCIALS ===================*/
@@ -47,5 +48,5 @@ header{
     left: calc(50% - 11rem);
     margin-top: 4rem;
     border-radius: 120px 120px 0 0; 
-  
+    
 }
