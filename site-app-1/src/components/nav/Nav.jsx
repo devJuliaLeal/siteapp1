@@ -10,7 +10,7 @@ const nav = () => {
   return (
     <div className='nav'>
       
-      <a href='#'><RiHomeLine/></a>
+      <a href='#' ><RiHomeLine/></a>
       <a href='#about'><AiOutlineUser/></a>
       <a href='#experience'><AiOutlineBook/></a>
       <a href='#services'><RiServiceLine/></a>
