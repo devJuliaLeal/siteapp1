@@ -15,7 +15,7 @@ const About = () => {
           <img src={img} alt="about image" className='img'></img>
         </div>
         <div className='about__content'>
-          <div className='about__cards'></div>
+          <div className='about__cards'>
             <article className='about__card'>
               <FaAward className='about__icon'/>
               <h5> Experience</h5>
@@ -35,6 +35,7 @@ const About = () => {
               <h5> Projects</h5>
               <small> 80+ Completed Projects</small>
             </article>
+            </div>
           <p>"Front End developer with expertise in JavaScript, CSS5, 
   SASS and other technologies. Passionate about creating stunning 
   and engaging user interfaces, constantly seeking innovative and efficient 
