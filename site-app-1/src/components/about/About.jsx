@@ -2,6 +2,8 @@ import React from 'react'
 import './about.css'
 import img from '../../assets/meninadancando.gif'
 import {FaAward} from 'react-icons/fa'
+import {FiUsers} from 'react-icons/fi'
+import {AiOutlineFundProjectionScreen} from 'react-icons/ai'
 
 const About = () => {
   return (
@@ -18,6 +20,20 @@ const About = () => {
               <FaAward className='about__icon'/>
               <h5> Experience</h5>
               <small> 2+ Years Working</small>
+                
+            </article>
+
+            <article className='about__card'>
+              <FiUsers className='about__icon'/>
+              <h5> Clients</h5>
+              <small> 10+ Worlwide</small>
+                
+            </article>
+
+            <article className='about__card'>
+              <AiOutlineFundProjectionScreen className='about__icon'/>
+              <h5> Projects</h5>
+              <small> 80+ Completed Projects</small>
                 
             </article>
 
