@@ -9,9 +9,15 @@ const About = () => {
       <h2>About me</h2>
       <div className='container about__container'>
         <div className='about__me'>
-          <img src={img}></img>
+          <img src={img} alt="about image"></img>
         </div>
         <div className='about__content'>
+          <div className='about__cards'></div>
+            <article className='about__card'>
+              <h5> Experience</h5>
+              <small> 2+ Years Working</small>
+
+            </article>
 
         </div>
       </div>
