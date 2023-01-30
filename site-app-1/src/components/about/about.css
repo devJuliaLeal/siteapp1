@@ -5,6 +5,10 @@
 }
 .img{
     width: 400px;   
+    border-radius: 2rem;
+    overflow: hidden;
+    transform: rotate(10deg);
+    transition: var(--transition);
 }
 
 .about__me {
@@ -18,5 +22,21 @@
     var(--color-primary));
     display: grid;
     place-items: center;
+
+}
+
+.img:hover{
+    transform: rotate(0deg);
+}
+
+.about__cards{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 1.5rem;
+}
+.about__card{
+    background: var(--color-bg-variant);
+    
+
 
 }
