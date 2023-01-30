@@ -7,6 +7,7 @@
  position: fixed;
  transform: translate(-50%);
  bottom: 2rem;
+ left: 50%;
  display: flex;
  gap: 0.8rem;
  border-radius: 3rem;
@@ -17,7 +18,11 @@
 
 .nav a {
     background: transparent;
-    padding: 0.8rem;
+    padding: 0.9rem;
     border-radius: 50%;
-    
+    display: flex;
+    font-size: 1.2rem;
+
+
+
 }
