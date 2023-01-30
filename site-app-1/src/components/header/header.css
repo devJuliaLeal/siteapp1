@@ -24,12 +24,12 @@ header{
 
 .header__socials {
     display: flex;
+    position: absolute;
     flex-direction: column;
     align-items: center;
-    gap: 1.5rem;
-    position: absolute;
-    left: 350px;
-    bottom: 200px;
+    gap: 0.8rem;
+    left: 300px;
+    bottom: 10rem;
     font-size: 20px;
 
     
@@ -73,6 +73,9 @@ header{
         height: 68vh;
 
     }
+    .header__socials{
+        left: 100px;
+    }
 
 }
 
@@ -84,6 +87,11 @@ header{
 
     }
     .header__socials{
+      display: none;
+
+    }
+    
+    .scroll_down {
         display: none;
     }
 }

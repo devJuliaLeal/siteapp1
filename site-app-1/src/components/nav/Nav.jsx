@@ -9,6 +9,7 @@ import {BiMessageSquareDots} from 'react-icons/bi'
 const nav = () => {
   return (
     <div>
+      
       <a href='#'><RiHomeLine/></a>
       <a href='#about'><AiOutlineUser/></a>
       <a href='#experience'><AiOutlineBook/></a>
