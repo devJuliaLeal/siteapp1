@@ -35,7 +35,16 @@ const About = () => {
               <h5> Projects</h5>
               <small> 80+ Completed Projects</small>
             </article>
-<p>"Front End developer with expertise in JavaScript, CSS5, SASS and other technologies. Passionate about creating stunning and engaging user interfaces, constantly seeking innovative and efficient solutions for projects. Detail-oriented and committed to delivering high-quality work, believes in teamwork to achieve remarkable results."</p>
+          <p>"Front End developer with expertise in JavaScript, CSS5, 
+  SASS and other technologies. Passionate about creating stunning 
+  and engaging user interfaces, constantly seeking innovative and efficient 
+  solutions for projects. Detail-oriented and committed to delivering high-quality work,
+   believes in teamwork to achieve remarkable results."
+          </p>
+          <a href='#contact' className='btn btn-primary'>Let`s Talk </a>
+
+
+
         </div>
       </div>
       </section>
