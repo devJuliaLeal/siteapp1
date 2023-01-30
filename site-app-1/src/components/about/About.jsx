@@ -26,7 +26,7 @@ const About = () => {
             <article className='about__card'>
               <FiUsers className='about__icon'/>
               <h5> Clients</h5>
-              <small> 10+ Worlwide</small>
+              <small> 100+ Worlwide</small>
                 
             </article>
 
@@ -34,9 +34,8 @@ const About = () => {
               <AiOutlineFundProjectionScreen className='about__icon'/>
               <h5> Projects</h5>
               <small> 80+ Completed Projects</small>
-                
             </article>
-
+<p>"Front End developer with expertise in JavaScript, CSS5, SASS and other technologies. Passionate about creating stunning and engaging user interfaces, constantly seeking innovative and efficient solutions for projects. Detail-oriented and committed to delivering high-quality work, believes in teamwork to achieve remarkable results."</p>
         </div>
       </div>
       </section>
