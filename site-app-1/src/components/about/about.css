@@ -65,7 +65,38 @@
 
 .about__content p{
     margin: 2rem 0 2.6rem;
-    color: var(--color-light);
+    color: var(--color-light);    
+
+}
+
+/*==================== MEDIA QUERIES (MEDIUM DEVICES)===================== */
+
+@media screen and (max-width: 1024px){ 
+    header {
+        height: 68vh;
+
+    }
+    .header__socials{
+        left: 100px;
+    }
     
 
+}
+
+/*==================== MEDIA QUERIES (SMALL DEVICES)===================== */
+
+@media screen and (max-width: 600px){ 
+    header{
+        height: 100vh;
+
+    }
+    .header__socials{
+       
+        display: none;
+    
+    }
+    
+    .scroll_down {
+        display: none;
+    }
 }
