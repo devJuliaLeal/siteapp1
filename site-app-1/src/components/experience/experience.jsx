@@ -18,20 +18,16 @@ const experience = () => {
           <div className='experience__content'>
             <article className='experience__details'>
             <BsFillPatchCheckFill/>
+            <div>
             <h4> HTML</h4>
             <h5 className='text-light'>Experienced</h5>
+            </div>
             <BsFillPatchCheckFill/>
-            <h4> CSS</h4>
+
+            <div><h4> CSS</h4>
             <h5 className='text-light'>Experienced</h5>
-            <BsFillPatchCheckFill/>
-            <h4> JavaScript</h4>
-            <h5 className='text-light'>Experienced</h5>
-            <BsFillPatchCheckFill/>
-            <h4> React</h4>
-            <h5 className='text-light'>Experienced</h5>
-            <BsFillPatchCheckFill/>
-            <h4> Tailwind</h4>
-            <h5 className='text-light'>Experienced</h5>
+            </div>
+          
             </article>
             </div>
         </div>
@@ -43,20 +39,16 @@ const experience = () => {
           <div className='experience__content'>
             <article className='experience__details'>
             <BsFillPatchCheckFill/>
+            <div>
             <h4> HTML</h4>
             <h5 className='text-light'>Experienced</h5>
+            </div>
+
             <BsFillPatchCheckFill/>
+            <div>
             <h4> CSS</h4>
             <h5 className='text-light'>Experienced</h5>
-            <BsFillPatchCheckFill/>
-            <h4> JavaScript</h4>
-            <h5 className='text-light'>Experienced</h5>
-            <BsFillPatchCheckFill/>
-            <h4> React</h4>
-            <h5 className='text-light'>Experienced</h5>
-            <BsFillPatchCheckFill/>
-            <h4> Tailwind</h4>
-            <h5 className='text-light'>Experienced</h5>
+            </div>
             </article>
           </div>
         </div>
