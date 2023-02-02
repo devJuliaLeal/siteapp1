@@ -16,7 +16,7 @@ const Services = () => {
           <div className='service_head'>
             <h3>UI/UX Design</h3>
           </div>
-          <ul className='serivice__list'>
+          <ul className='service__list'>
             <li><BsCheckCircle className='service__list-icon'/>
               <p> Diz-me com quem andas e te direi se vou contigo.</p>
             </li>
@@ -43,7 +43,7 @@ const Services = () => {
           <div className='service_head'>
             <h3>Web Development</h3>
           </div>
-          <ul className='serivice__list'>
+          <ul className='service__list'>
             <li><BsCheckCircle className='service__list-icon'/>
             <p> Diz-me com quem andas e te direi se vou contigo.</p>
             </li>
@@ -72,7 +72,7 @@ const Services = () => {
           <div className='service_head'>
             <h3>Content Creation</h3>
           </div>
-          <ul className='serivice__list'>
+          <ul className='service__list'>
             <li><BsCheckCircle className='service__list-icon'/>
               <p> Diz-me com quem andas e te direi se vou contigo.</p>
             </li>
