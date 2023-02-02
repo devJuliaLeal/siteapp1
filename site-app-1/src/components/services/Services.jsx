@@ -67,6 +67,7 @@ const Services = () => {
         </article>
         </div>
         
+        <div className='container services__container'>
         <article className='service'>
           <div className='service_head'>
             <h3>Web Development</h3>
@@ -94,9 +95,11 @@ const Services = () => {
 
 
         </article>
+        </div>
+       < div className='container services__container'>
         <article className='service'>
           <div className='service_head'>
-            <h3>Content creation </h3>
+            <h3>Content Creation</h3>
           </div>
           <ul className='serivice__list'>
             <li><BsCheckCircle className='service__list-icon'/>
@@ -121,6 +124,7 @@ const Services = () => {
 
 
         </article>
+        </div>
 
     </section>
 
